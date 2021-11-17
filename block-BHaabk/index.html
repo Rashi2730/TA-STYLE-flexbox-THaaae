@@ -1,13 +1,86 @@
-<!-- 
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Use flexbox properties and values to create columns.
- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster+Two:ital@1&family=Pacifico&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f7e89d699.js" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+    <header>
+        <div class="container clearfix">
+            <a id="logo" href="#">ₐcᵣₐyₐₙ</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Shop</a>
+                <a href="#">Log In</a>
+                <a href="#">Support</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sec1">
+            <article>
+                <div class="container">
+                    <div class="container1">
+                        <div class="col">
+                            <h1>Capsule for a Trendy Style</h1>
+                            <p>Beauty is defined differently through each person’s eyes, so to find the ideal description of what beauty is can be difficult. It gets a little tricky when society can ridicule an individual for wearing too much makeup or not enough. In the cosmetic industry, it can be very broad and diverse but one thing you can narrow it down to is either the consumer like to be natural or do a full on make over. Some of the factors that may contribute to whether a person like make-up or not may be because of personal</p>
+                            <p>Beauty is defined differently through each person’s eyes, so to find the ideal description of what beauty is can be difficult. It gets a little tricky when society can ridicule an individual for wearing too much makeup or not enough. In the cosmetic industry, it can be very broad and diverse but one thing you can narrow it down to is either the consumer like to be natural or do a full on make over. Some of the factors that may contribute to whether a person like make-up or not may be because of personal</p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="col">
+                            <img src="assets/media/download.jpg" alt="">
+                        </div>    
+                    </div>    
+                </div>
+            </article>
+        </section>
+        <section>
+            <p id="glr">Gallery Section</p>
+            <div class="container">
+                <div class="container1">
+                    <div class="gallery">
+                        <img src="assets/media/audrey-m-jackson-cAFpd2vqnPE-unsplash.jpg" alt="">
+                    </div>
+                    <div class="gallery">
+                        <img src="assets/media/peyman-farmani-l-kdl0D5UCw-unsplash.jpg" alt="">
+                    </div>
+                    <div class="gallery">
+                        <img src="assets/media/oladimeji-odunsi-wecunh3nBrA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="gallery">
+                        <img src="assets/media/omid-armin-65JdPsTtL-0-unsplash.jpg" alt="">
+                    </div>
+                    <div class="gallery">
+                        <img src="assets/media/skg-photography-D0F8ulj7hds-unsplash.jpg" alt="">
+                    </div>
+                    <div class="gallery">
+                        <img src="assets/media/wesley-tingey-4WUwF9jVqMU-unsplash.jpg" alt="">
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container clearfix">
+                <div class="footer">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>    
+                </div>
+                <div class="footer">
+                    <span id="#top">Back to top<i class="fas fa-angle-up"></i></span>
+                </div>  
+                <div class="footer">
+                    <p>Terms and Privacy</p>
+                </div>    
+        </div>
+    </footer>
+</body>
+</html>
