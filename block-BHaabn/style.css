@@ -1,0 +1,102 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+/* General */
+
+.container {
+    width: 1000px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+/* header */
+
+
+header{
+    background-color: cadetblue;
+    padding: 32px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    text-decoration: none;
+    font-size: 65px;
+    font-weight: 700;
+    font-stretch: wider;
+    color: rgb(208 244 245);
+    text-shadow: 2px 5px #5e5a49;
+}
+.nav a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 24px;
+    color: rgb(208 244 245);
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 3px #5e5a49 ;
+}
+.nav a:hover, .nav a.active{
+    background-color: #5e5a49;
+    color: cadetblue;
+}
+
+/* gallery section */
+
+section{
+    padding: 30px 0;
+}
+section .flex{
+    flex-wrap: wrap;
+}
+.col {
+    width: 30.33%;
+    margin: 1.5%;
+}
+.col img{
+    width: 100%;
+    height: 220px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    color: #5e5a49;
+    padding: 20px 0 40px 0;
+    text-shadow: 0 3px cadetblue;
+}
+
+/* footer */
+
+footer {
+    background-color: #9bdedb;
+    padding: 32px;
+}
+.nav2 a{
+    color: #385556;
+    font-size: 30px;
+    padding: 0 15px;
+}
+small{
+    color: #385556;
+    font-size: 28px;
+}
